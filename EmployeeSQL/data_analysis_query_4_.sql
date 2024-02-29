@@ -1,0 +1,35 @@
+-- List all information about department employees
+SELECT
+  dept_no
+AS
+  dept_employees
+FROM
+  departments
+UNION
+SELECT
+  dept_name
+AS
+  dept_employees
+FROM
+  departments
+UNION
+SELECT
+  emp_title_id -- actually emp_no but SQL reads it as emp_title_id
+AS
+  dept_employees
+FROM
+  employees
+UNION
+SELECT
+  last_name
+AS
+  dept_employees
+FROM
+  employees
+UNION
+SELECT
+  first_name
+AS
+  dept_employees
+FROM
+  employees
