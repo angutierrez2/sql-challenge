@@ -59,7 +59,6 @@
 ### This assignment will be evaluated against the requirements and assigned a grade according to the following table:
 
 ### Grade Points
-
 A (+/-)	90+
 
 B (+/-)	80–89
